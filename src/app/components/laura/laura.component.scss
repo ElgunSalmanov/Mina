@@ -1,0 +1,56 @@
+.laurasustai {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  .laura,
+  .sustai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    column-gap: 100px;
+    margin-bottom: 100px;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 30px;
+      width: 35%;
+
+      &-content {
+        font-size: 50px;
+        font-weight: 400;
+      }
+
+      &-text {
+        width: 100%;
+        font-size: 20px;
+        color: rgb(93, 87, 94);
+      }
+    }
+
+    &-image {
+      width: 35%;
+    }
+  }
+}
+
+// button design
+.design {
+  width: 30%;
+  padding: 20px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  background: rgb(76, 31, 89);
+  letter-spacing: 0.5;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0px 0px 10px 0px rgb(76, 31, 89);
+  }
+}
