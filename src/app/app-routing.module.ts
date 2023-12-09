@@ -8,6 +8,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { ReturnsComponent } from './pages/returns/returns.component';
 import { PaymentsComponent } from './pages/payments/payments.component';
+import { AllComponent } from './pages/all/all.component';
+import { NewComponent } from './pages/new/new.component';
 
 const routes: Routes = [
   {
@@ -41,6 +43,14 @@ const routes: Routes = [
   {
     path: 'payments',
     component: PaymentsComponent,
+  },
+  {
+    path: 'all',
+    component: AllComponent,
+  },
+  {
+    path: 'new',
+    component: NewComponent,
   },
   { path: '**', redirectTo: '' },
 ];

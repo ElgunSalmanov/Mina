@@ -1,0 +1,54 @@
+.allproduct {
+  margin-bottom: 100px;
+
+  &-content {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 80px 0px;
+  }
+
+  &-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+
+    &-card {
+      width: 300px;
+      height: 300px;
+      cursor: pointer;
+
+      &-image {
+        width: 300px;
+        height: 270px;
+        transition: 0.5s ease-in-out;
+
+        &:hover {
+          filter: brightness(80%);
+        }
+      }
+
+      &-content {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        margin: 10px 0px;
+      }
+
+      &-price {
+        text-align: center;
+      }
+
+      &-old {
+        color: #b9b8b8;
+        text-decoration: line-through;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+// color sold
+.color {
+  color: #b9b8b8;
+}

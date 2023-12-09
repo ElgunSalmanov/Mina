@@ -28,6 +28,12 @@ import { ContactinfoComponent } from './components/contactinfo/contactinfo.compo
 import { FormComponent } from './components/form/form.component';
 import { ReturnComponent } from './components/return/return.component';
 import { PaymentComponent } from './components/payment/payment.component';
+import { AllComponent } from './pages/all/all.component';
+import { NewComponent } from './pages/new/new.component';
+import { AllinfoComponent } from './components/allinfo/allinfo.component';
+import { AllproductComponent } from './components/allproduct/allproduct.component';
+import { NewinfoComponent } from './components/newinfo/newinfo.component';
+import { NewcollectionComponent } from './components/newcollection/newcollection.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +64,12 @@ import { PaymentComponent } from './components/payment/payment.component';
     FormComponent,
     ReturnComponent,
     PaymentComponent,
+    AllComponent,
+    NewComponent,
+    AllinfoComponent,
+    AllproductComponent,
+    NewinfoComponent,
+    NewcollectionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
